@@ -1,0 +1,187 @@
+\begin{thebibliography}{19}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Ziegler-Graham et~al.(2008)Ziegler-Graham, MacKenzie, Ephraim,
+  Travison, and Brookmeyer}]{Ziegler-Graham2008}
+\bibinfo{author}{K.~Ziegler-Graham}, \bibinfo{author}{E.~J. MacKenzie},
+  \bibinfo{author}{P.~L. Ephraim}, \bibinfo{author}{T.~G. Travison},
+  \bibinfo{author}{R.~Brookmeyer},
+\newblock \bibinfo{title}{{Estimating the prevalence of limb loss in the United
+  States: 2005 to 2050.}},
+\newblock \bibinfo{journal}{Archives of physical medicine and rehabilitation}
+  \bibinfo{volume}{89} (\bibinfo{year}{2008}) \bibinfo{pages}{422--9}.
+%Type = Article
+\bibitem[{Orhan et~al.(2012)Orhan, Hild, Erdogmus, Roark, Oken, and
+  Fried-Oken}]{Orhan2012}
+\bibinfo{author}{U.~Orhan}, \bibinfo{author}{K.~E. Hild},
+  \bibinfo{author}{D.~Erdogmus}, \bibinfo{author}{B.~Roark},
+  \bibinfo{author}{B.~Oken}, \bibinfo{author}{M.~Fried-Oken},
+\newblock \bibinfo{title}{{RSVP Keyboard: An EEG Based Typing Interface.}},
+\newblock \bibinfo{journal}{Proceedings of the ... IEEE International
+  Conference on Acoustics, Speech, and Signal Processing / sponsored by the
+  Institute of Electrical and Electronics Engineers Signal Processing Society.
+  ICASSP (Conference)}  (\bibinfo{year}{2012}).
+%Type = Article
+\bibitem[{{Del R Millan} et~al.(2009){Del R Millan}, Galan, Vanhooydonck, Lew,
+  Philips, and Nuttin}]{DelRMillan2009}
+\bibinfo{author}{J.~J. {Del R Millan}}, \bibinfo{author}{F.~Galan},
+  \bibinfo{author}{D.~Vanhooydonck}, \bibinfo{author}{E.~Lew},
+  \bibinfo{author}{J.~Philips}, \bibinfo{author}{M.~Nuttin},
+\newblock \bibinfo{title}{{Asynchronous non-invasive brain-actuated control of
+  an intelligent wheelchair.}},
+\newblock \bibinfo{journal}{Conference proceedings : ... Annual International
+  Conference of the IEEE Engineering in Medicine and Biology Society. IEEE
+  Engineering in Medicine and Biology Society. Annual Conference}
+  \bibinfo{volume}{2009} (\bibinfo{year}{2009}) \bibinfo{pages}{3361--4}.
+%Type = Article
+\bibitem[{Carmena et~al.(2003)Carmena, Lebedev, Crist, O'Doherty, Santucci,
+  Dimitrov, Patil, Henriquez, and Nicolelis}]{Carmena2003}
+\bibinfo{author}{J.~M. Carmena}, \bibinfo{author}{M.~a. Lebedev},
+  \bibinfo{author}{R.~E. Crist}, \bibinfo{author}{J.~E. O'Doherty},
+  \bibinfo{author}{D.~M. Santucci}, \bibinfo{author}{D.~F. Dimitrov},
+  \bibinfo{author}{P.~G. Patil}, \bibinfo{author}{C.~S. Henriquez},
+  \bibinfo{author}{M.~a.~L. Nicolelis},
+\newblock \bibinfo{title}{{Learning to control a brain-machine interface for
+  reaching and grasping by primates.}},
+\newblock \bibinfo{journal}{PLoS biology} \bibinfo{volume}{1}
+  (\bibinfo{year}{2003}) \bibinfo{pages}{E42}.
+%Type = Article
+\bibitem[{Collinger et~al.(2013)Collinger, Wodlinger, Downey, Wang,
+  Tyler-Kabara, Weber, McMorland, Velliste, Boninger, and
+  Schwartz}]{Collinger2013}
+\bibinfo{author}{J.~L. Collinger}, \bibinfo{author}{B.~Wodlinger},
+  \bibinfo{author}{J.~E. Downey}, \bibinfo{author}{W.~Wang},
+  \bibinfo{author}{E.~C. Tyler-Kabara}, \bibinfo{author}{D.~J. Weber},
+  \bibinfo{author}{A.~J.~C. McMorland}, \bibinfo{author}{M.~Velliste},
+  \bibinfo{author}{M.~L. Boninger}, \bibinfo{author}{A.~B. Schwartz},
+\newblock \bibinfo{title}{{High-performance neuroprosthetic control by an
+  individual with tetraplegia.}},
+\newblock \bibinfo{journal}{Lancet (London, England)} \bibinfo{volume}{381}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{557--64}.
+%Type = Article
+\bibitem[{Musallam et~al.(2004)Musallam, Corneil, Greger, Scherberger, and
+  Andersen}]{Musallam2004}
+\bibinfo{author}{S.~Musallam}, \bibinfo{author}{B.~D. Corneil},
+  \bibinfo{author}{B.~Greger}, \bibinfo{author}{H.~Scherberger},
+  \bibinfo{author}{R.~a. Andersen},
+\newblock \bibinfo{title}{{Cognitive control signals for neural prosthetics.}},
+\newblock \bibinfo{journal}{Science (New York, N.Y.)} \bibinfo{volume}{305}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{258--262}.
+%Type = Article
+\bibitem[{Brumberg et~al.(2011)Brumberg, Wright, Andreasen, Guenther, and
+  Kennedy}]{Brumberg2011}
+\bibinfo{author}{J.~S. Brumberg}, \bibinfo{author}{E.~J. Wright},
+  \bibinfo{author}{D.~S. Andreasen}, \bibinfo{author}{F.~H. Guenther},
+  \bibinfo{author}{P.~R. Kennedy},
+\newblock \bibinfo{title}{{Classification of intended phoneme production from
+  chronic intracortical microelectrode recordings in speech-motor cortex.}},
+\newblock \bibinfo{journal}{Frontiers in neuroscience} \bibinfo{volume}{5}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{65}.
+%Type = Article
+\bibitem[{Georgopoulos et~al.(1986)Georgopoulos, Kettner, Schwartz, and
+  Kettner}]{Georgopoulos1986}
+\bibinfo{author}{A.~P. Georgopoulos}, \bibinfo{author}{R.~E. Kettner},
+  \bibinfo{author}{A.~B. Schwartz}, \bibinfo{author}{R.~E. Kettner},
+\newblock \bibinfo{title}{{Neuronal population coding of movement direction}},
+\newblock \bibinfo{journal}{Science} \bibinfo{volume}{233}
+  (\bibinfo{year}{1986}) \bibinfo{pages}{1416--1419}.
+%Type = Article
+\bibitem[{Chapin et~al.(1999)Chapin, Moxon, Markowitz, and
+  Nicolelis}]{Chapin1999}
+\bibinfo{author}{J.~K. Chapin}, \bibinfo{author}{K.~A. Moxon},
+  \bibinfo{author}{R.~S. Markowitz}, \bibinfo{author}{M.~A.~L. Nicolelis},
+\newblock \bibinfo{title}{{Real-time control of a robot arm using
+  simultaneously recorded neurons in the motor cortex}} \bibinfo{volume}{2}
+  (\bibinfo{year}{1999}).
+%Type = Article
+\bibitem[{Hochberg et~al.(2006)Hochberg, Serruya, Friehs, Mukand, Saleh,
+  Caplan, Branner, Chen, Penn, and Donoghue}]{Hochberg2006}
+\bibinfo{author}{L.~R. Hochberg}, \bibinfo{author}{M.~D. Serruya},
+  \bibinfo{author}{G.~M. Friehs}, \bibinfo{author}{J.~A. Mukand},
+  \bibinfo{author}{M.~Saleh}, \bibinfo{author}{A.~H. Caplan},
+  \bibinfo{author}{A.~Branner}, \bibinfo{author}{D.~Chen},
+  \bibinfo{author}{R.~D. Penn}, \bibinfo{author}{J.~P. Donoghue},
+\newblock \bibinfo{title}{{Neuronal ensemble control of prosthetic devices by a
+  human with tetraplegia.}},
+\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{442}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{164--71}.
+%Type = Article
+\bibitem[{Kao et~al.(2015)Kao, Nuyujukian, Ryu, Churchland, and
+  Cunningham}]{Kao2015}
+\bibinfo{author}{J.~C. Kao}, \bibinfo{author}{P.~Nuyujukian},
+  \bibinfo{author}{S.~I. Ryu}, \bibinfo{author}{M.~M. Churchland},
+  \bibinfo{author}{J.~P. Cunningham},
+\newblock \bibinfo{title}{{Applications To Brain-Machine Interfaces}},
+\newblock \bibinfo{journal}{Nature Communications} \bibinfo{volume}{6}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{1--12}.
+%Type = Article
+\bibitem[{Scheidt et~al.(2005)Scheidt, Conditt, Secco, and
+  Mussa-Ivaldi}]{Scheidt2005}
+\bibinfo{author}{R.~A. Scheidt}, \bibinfo{author}{M.~A. Conditt},
+  \bibinfo{author}{E.~L. Secco}, \bibinfo{author}{F.~A. Mussa-Ivaldi},
+\newblock \bibinfo{title}{{Interaction of visual and proprioceptive feedback
+  during adaptation of human reaching movements.}},
+\newblock \bibinfo{journal}{Journal of neurophysiology} \bibinfo{volume}{93}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{3200--13}.
+%Type = Article
+\bibitem[{Dadarlat et~al.(2015)Dadarlat, O'Doherty, and Sabes}]{Dadarlat2015}
+\bibinfo{author}{M.~C. Dadarlat}, \bibinfo{author}{J.~E. O'Doherty},
+  \bibinfo{author}{P.~N. Sabes},
+\newblock \bibinfo{title}{{A learning-based approach to artificial sensory
+  feedback leads to optimal integration.}},
+\newblock \bibinfo{journal}{Nature neuroscience} \bibinfo{volume}{18}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{138--44}.
+%Type = Article
+\bibitem[{Godlove et~al.(2014)Godlove, Whaite, and Batista}]{Godlove2014}
+\bibinfo{author}{J.~M. Godlove}, \bibinfo{author}{E.~O. Whaite},
+  \bibinfo{author}{A.~P. Batista},
+\newblock \bibinfo{title}{{Comparing temporal aspects of visual, tactile, and
+  microstimulation feedback for motor control.}},
+\newblock \bibinfo{journal}{Journal of neural engineering} \bibinfo{volume}{11}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{046025}.
+%Type = Article
+\bibitem[{O'Doherty et~al.(2009)O'Doherty, Lebedev, Hanson, Fitzsimmons, and
+  Nicolelis}]{ODoherty2009}
+\bibinfo{author}{J.~E. O'Doherty}, \bibinfo{author}{M.~A. Lebedev},
+  \bibinfo{author}{T.~L. Hanson}, \bibinfo{author}{N.~A. Fitzsimmons},
+  \bibinfo{author}{M.~A.~L. Nicolelis},
+\newblock \bibinfo{title}{{A brain-machine interface instructed by direct
+  intracortical microstimulation.}},
+\newblock \bibinfo{journal}{Frontiers in integrative neuroscience}
+  \bibinfo{volume}{3} (\bibinfo{year}{2009}) \bibinfo{pages}{20}.
+%Type = Article
+\bibitem[{Quick et~al.(2014)Quick, Card, Whaite, Mischel, Loughlin, and
+  Batista}]{Quick2014}
+\bibinfo{author}{K.~M. Quick}, \bibinfo{author}{N.~S. Card},
+  \bibinfo{author}{S.~M. Whaite}, \bibinfo{author}{J.~Mischel},
+  \bibinfo{author}{P.~Loughlin}, \bibinfo{author}{A.~P. Batista},
+\newblock \bibinfo{title}{{Assessing vibrotactile feedback strategies by
+  controlling a cursor with unstable dynamics.}},
+\newblock \bibinfo{journal}{Conference proceedings : ... Annual International
+  Conference of the IEEE Engineering in Medicine and Biology Society. IEEE
+  Engineering in Medicine and Biology Society. Annual Conference}
+  \bibinfo{volume}{2014} (\bibinfo{year}{2014}) \bibinfo{pages}{2589--92}.
+%Type = Article
+\bibitem[{Georgopoulos and Massey(1988)}]{Georgopoulos1988}
+\bibinfo{author}{A.~P. Georgopoulos}, \bibinfo{author}{J.~T. Massey},
+\newblock \bibinfo{title}{{Cognitive spatial-motor processes. 2. Information
+  transmitted by the direction of two-dimensional arm movements and by neuronal
+  populations in primate motor cortex and area 5.}},
+\newblock \bibinfo{journal}{Experimental brain research} \bibinfo{volume}{69}
+  (\bibinfo{year}{1988}) \bibinfo{pages}{315--26}.
+%Type = Article
+\bibitem[{Tehovnik et~al.(2013)Tehovnik, Woods, and Slocum}]{Tehovnik2013}
+\bibinfo{author}{E.~J. Tehovnik}, \bibinfo{author}{L.~C. Woods},
+  \bibinfo{author}{W.~M. Slocum},
+\newblock \bibinfo{title}{{Transfer of information by BMI.}},
+\newblock \bibinfo{journal}{Neuroscience} \bibinfo{volume}{255}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{134--46}.
+%Type = Misc
+\bibitem[{Quick(2015)}]{Quick2015}
+\bibinfo{author}{K.~M. Quick}, \bibinfo{title}{{Investigation of Methods for
+  Assessing Sensorimotor Performance in Humans and Monkeys}},
+  \bibinfo{year}{2015}.
+
+\end{thebibliography}
