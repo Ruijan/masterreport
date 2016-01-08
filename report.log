@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.28)  30 DEC 2015 17:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.28)  7 JAN 2016 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,7 +345,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/bmitypes.jpg, id=92, 800.9925pt x 563.10374pt>
+<images/bmitypes.jpg, id=100, 800.9925pt x 563.10374pt>
 File: images/bmitypes.jpg Graphic file (type jpg)
 
 <use images/bmitypes.jpg>
@@ -356,7 +356,7 @@ Overfull \hbox (21.24573pt too wide) in paragraph at lines 145--147
  [] 
  []
 
-<images/utaharray.jpeg, id=95, 266.9975pt x 190.7125pt>
+<images/utaharray.jpeg, id=103, 266.9975pt x 190.7125pt>
 File: images/utaharray.jpeg Graphic file (type jpg)
 
 <use images/utaharray.jpeg>
@@ -367,7 +367,7 @@ Overfull \hbox (21.24573pt too wide) in paragraph at lines 154--156
  [] 
  []
 
-<images/monkeybrain.png, id=104, 436.63126pt x 278.03876pt>
+<images/monkeybrain.png, id=112, 436.63126pt x 278.03876pt>
 File: images/monkeybrain.png Graphic file (type png)
 
 <use images/monkeybrain.png>
@@ -389,60 +389,81 @@ brain-machine
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 218--223
+ [6] <figures/RT_trajectory.pdf, id=165, 614.295pt x 794.97pt>
+File: figures/RT_trajectory.pdf Graphic file (type pdf)
+
+<use figures/RT_trajectory.pdf>
+Package pdftex.def Info: figures/RT_trajectory.pdf used on input line 198.
+(pdftex.def)             Requested size: 386.10214pt x 339.23782pt.
+ [7 <./figures/RT_trajectory.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
 
  []
 
-[8] <images/MTcoherence100.pdf, id=183, 557.08125pt x 425.33907pt>
+[8] [9] [10] <images/MTcoherence100.pdf, id=211, 557.08125pt x 425.33907pt>
 File: images/MTcoherence100.pdf Graphic file (type pdf)
 
 <use images/MTcoherence100.pdf>
-Package pdftex.def Info: images/MTcoherence100.pdf used on input line 249.
+Package pdftex.def Info: images/MTcoherence100.pdf used on input line 287.
 (pdftex.def)             Requested size: 191.10214pt x 168.55495pt.
 
-<images/MTcoherence50.pdf, id=185, 547.2947pt x 368.87813pt>
+<images/MTcoherence50.pdf, id=213, 547.2947pt x 368.87813pt>
 File: images/MTcoherence50.pdf Graphic file (type pdf)
 
 <use images/MTcoherence50.pdf>
-Package pdftex.def Info: images/MTcoherence50.pdf used on input line 250.
+Package pdftex.def Info: images/MTcoherence50.pdf used on input line 288.
 (pdftex.def)             Requested size: 191.10214pt x 164.80814pt.
- [9 <./images/MTcoherence100.pdf> <./images/MTcoherence50.pdf>] (./report.bbl [
-10] [11])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+
+<figures/MD_mean_human.pdf, id=217, 614.295pt x 794.97pt>
+File: figures/MD_mean_human.pdf Graphic file (type pdf)
+
+<use figures/MD_mean_human.pdf>
+Package pdftex.def Info: figures/MD_mean_human.pdf used on input line 299.
+(pdftex.def)             Requested size: 390.0pt x 370.38454pt.
+
+<figures/SD_mean_human.pdf, id=219, 614.295pt x 794.97pt>
+File: figures/SD_mean_human.pdf Graphic file (type pdf)
+
+<use figures/SD_mean_human.pdf>
+Package pdftex.def Info: figures/SD_mean_human.pdf used on input line 304.
+(pdftex.def)             Requested size: 390.0pt x 370.38454pt.
+ [11] [12 <./images/MTcoherence100.pdf> <./images/MTcoherence50.pdf>] [13 <./fi
+gures/MD_mean_human.pdf>] [14 <./figures/SD_mean_human.pdf>] (./report.bbl [15]
+ [16])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 5122CF357AF4EBFB35C5B6C107FE794E;1205.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+(rerunfilecheck)             Checksum: 6267ED91A928ABD6627C9A2441E622E8;1388.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
- 7371 strings out of 495028
- 110229 string characters out of 6181496
- 194997 words of memory out of 5000000
- 10441 multiletter control sequences out of 15000+600000
+ 7404 strings out of 495028
+ 110841 string characters out of 6181496
+ 195735 words of memory out of 5000000
+ 10459 multiletter control sequences out of 15000+600000
  11182 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,8n,38p,1456b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1456b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
-b>
-Output written on report.pdf (12 pages, 439106 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on report.pdf (17 pages, 554467 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 449 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 

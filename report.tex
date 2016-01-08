@@ -189,9 +189,17 @@ The results for these two experiments have been relevant, so they have been appl
 Working with monkeys requires several weeks of training and adaptation on daily basis: getting the monkey on the pole, getting it out of the cage to the chair, bringing it to the experiment room, fixing the head, dressing it to prevent any damage to the material, training it to perform the experiment, bringing it back to its cage. This requires to build a relationship of trust between the monkey and the researcher over few weeks or few months.
 
 \subsection{Tasks}
-Two different tasks have been used during this project in order to cover most of the movement perform during a daily activity: reaching and stability task. For reaching, we mostly use vision but when it comes to keep an object in the hand (stability), humans and monkeys rely on proprioception to know the state of their body.
+Two different tasks have been used during this project in order to cover most of the movement performed during a daily activity: reaching (for an object) and stability (maintaining the position of an object) tasks. For reaching, we mostly use vision but when it comes to keep an object in the hand (stability), humans and monkeys rely on proprioception to know the state of their body.
 \subsubsection{Reaching tasks (RT)}
-The reaching task we used consist of moving the arm in order to attain a target uniformly randomly generated on a ring with an inner radius of 40mm and an external radius of 10mm. The monkey has to hold the position of the target for 0.5s. A trial is composed of one or more reach sequences of reaching a random target and coming back to the original position at the center (ADD IMAGE OF A CLASSIC REACHING TASK). This randomly generation is necessary in order to prevent human or monkeys to "learn" how far the target is from the initial position (i.e. when the feedback is degraded).
+The reaching task we used consist of moving the arm in order to attain a target uniformly randomly generated on a ring with an inner radius of 40mm and an external radius of 10mm. The monkey has to hold the position of the target for 0.5s. A trial is composed of one or more reach sequences of reaching a random target and coming back to the original position at the center (\ref{fig:RTtrajectory}). This randomly generation is necessary in order to prevent human or monkeys to "learn" how far the target is from the initial position (i.e. when the feedback is degraded).
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.99\textwidth,trim={4cm 8cm 4cm 8cm},clip]{figures/RT_trajectory.pdf}
+\caption[Trial trajectory]{Typical trial trajectory with Magnetic Target Feedback. The second reach is done with a random shift of the hand displayed on the screen.}
+\label{fig:RTtrajectory}
+\end{figure}
+
 Reaching tasks have become the simplest and the easiest way to assess the performance of a model applied on a Brain-Machine Interface. The parameters extracted (the reaction time, the reaching duration or the reaching path length) are precised and allow to compare different models. It is also a basic representation of a daily activity for human and monkeys. It is possible to compute the information per trial and the information rate of the decoding through this kind of experiment. In our case, the number of targets is too big to be relevant for computation of information (\ref{eq:inf} and \ref{eq:infrate}). 
 
 \begin{equation} 
@@ -205,6 +213,8 @@ Infrate (Bits/s) = \frac{Information}{dt}
 $N$ is the total number of different targets \\
 $P$ is the percentage of targets correctly reached\\
 $dt$ is the mean of reaching duration over trials
+
+In order to prevent use of proprioception while doing the task, the position of the hand displayed on the screen is shifted at every trial. A trial can be decomposed as 2 reaches: one to recenter the position of the hand in the middle of the screen. The second (shifted) is the one to evaluate the performance of the monkey with a feedback.
 
 \subsubsection{Critical Stability Task (CST)}
 Critical Stability Task (CST) is a classic task used to evaluate the performance of a system controller (i.e. the ability of a pilot to control an unstable airplane). The goal of the task is to control a unstable system (with transfer function \ref{eq:transfunc} and state function \ref{eq:statefunc}) with the hand or a mouse. The observability of this system is given by $\lambda$ and its controlability is inversely proportional to $\lambda$. Every step T1 (T1 = 1s), the value of lambda increment by 0.1. If the value of the state reached a certain limit(ADD VALUE HERE), the trial stop and we consider the current value of $\lambda$ as the critical lambda $\lambda_c$ where it is not possible anymore to control the systemRecently, it has been used as a main task for psychometric analysis of a feedback (Vibrotactile and visual) in humans and monkeys (\citet{Quick2014}, \citet{Quick2015}).
@@ -226,12 +236,40 @@ The main parameters that allows to evaluate the performance of the subject to pe
 For each tasks, multiple feedbacks have been used. Classic normal feedback has been used as control to compare the degraded feedbacks from Dot Spread (DS), Magnetic Target (MT) and Selected Information in Time and Space (SITS). For reaching task, only DS and MT have been used. For CST, MT and SITS have been used. The goal of the DS and MT tasks are to encode the position of the hand or the cursor in order to degrade easily and quantitatively the quality of the feedback. The degradation allows then to compare relatively the quality of the artificial proprioceptive feedback.
 \subsubsection{Classic - Visual (C)}
 Classis visualization corresponds to the representation on a screen of the position of the hand by a disk of radius 5mm. The target is also represented as a disk of radius 5mm.
-\subsubsection{Dot spread - Visual (DS)}
-The Dot Spread feedback encodes the position of the hand or the cursor by a certain amount of dots blinking at a frequency of XX Hz in a circle. The number of dots and the size of the circle depends on the degradation (coherence) of the feedback ($ 5 [mm] < r <5/coherence [mm]$). This feedback has only be used on human subject since we wanted to determine which feedback, between DS and MT, had a psychometric curve with the lowest slope in order to find the most learnable feedback for the monkeys.
+\subsubsection{Dots spread - Visual (DS)}
+The Dots Spread feedback encodes the position of the hand or the cursor by a certain amount of dots blinking at a frequency of XX Hz in a circle. The number of dots and the size of the circle depends on the degradation (coherence) of the feedback ($ 5 [mm] < r <5/coherence [mm]$). This feedback has only been used on human subjects since we wanted to determine which feedback, between DS and MT, had a psychometric curve with the lowest slope in order to find the most learnable feedback for the monkeys.
 \subsubsection{Magnetic Target - Visual (MT)}
 The Magnetic Target feedback encode the position of the hand or the cursor as a magnetic target. The screen is then covered by numerous lines (compasses) that are attracted by the target. The degradation of the feedback is done by adding random "ghost" targets generated on the screen (not visible) and associated to a certain percentage of compasses: 60\% of compasses get a random ghost target (different for each compass) for 40\% of coherence (figure \ref{fig:feedbacks}). The number of compasses varies between humans and monkeys and between tasks (table \ref{table:lines}). This was needed in order, for the subjects, to learn and perform the task in a non-frustrating way.
+\begin{table}
+\begin{center}
+\begin{tabular}{ |c|c|c|c| } 
+ \hline
+  & Humans & Monkey I & Monkey L \\ 
+ RT & 1000 & 2500 & NA \\ 
+ CST & 2000 & NA & NA \\ 
+ \hline
+\end{tabular}
+\end{center}
+\caption{Number of compasses for Reaching and Critical stability task (RT \& CST) depending on human or monkey subject}
+\label{table:lines}
+\end{table}
+
 \subsubsection{Selected Information in Time and Space - Visual (SITS)}
-\subsubsection{Artificial proprioceptiion - Non Visual (AP)}
+The previous feedbacks provide parameters that allow to evaluate the performance of a subject relatively to another feedback for one task but the performance obtained depends on the ability of a subject to perform the task and is not an absolute parameter that describe the interaction brain-machine or brain-feedback. The rate of information (number of bits per second) decoded by the brain from a feedback in order to achieve a certain performance is an absolute parameter comparable to any other interaction in term of information.
+
+The goal of this feedback is to control the amount of information given to the brain and to evaluate the performance of the subject with it. The hypothesis is that there is a huge correlation between the information given to the brain and the perfomance of the subject. This feedback has only been used coupled to the Critical Stability Task (CST). To control the information rate, we decided to "dicretize" the state of the unstable system by cutting the screen (range of system values) in a certain amount of rectangles with the same fixed size. This gives us the amount of information for one display. In order to control the rate, we updated the display of state of the system at a controled frequency while the state of the system is still updating every 30ms. Following the theorem of Shannon about self-information theory, we get the an information rate (IR in Bits/s):
+\begin{equation} 
+IR = f\sum_{k=0}^{k=M}{-log(p(k))}
+\label{eq:ir}
+\end{equation}
+$p(k)$ the probability that the system is in the state at step k\\
+$M$ the number of times the state has been displayed during a trial\\
+$f$ frequency of display update
+
+As we can see from the equation \ref{eq:ir}, we need to compute afterward the probability of the system to be at a particular state. We computed the probability function over all the trials done, considering the probability function identical for different frequencies and number of cuts of the screen. The probability of the system to be in one state is the number of times the system has been in this state (500 different values at maximum) divided by the number of steps recorded. 
+
+\subsubsection{Artificial proprioception - Non Visual (AP)}
+Not performed yet.
 
 \begin{figure}[htbp]
 \centering
@@ -253,23 +291,23 @@ The Magnetic Target feedback encode the position of the hand or the cursor as a 
 \label{fig:feedbacks}
 \end{figure}
 
-\begin{table}
-\begin{center}
-\begin{tabular}{ |c|c|c|c| } 
- \hline
-  & Humans & Monkey I & Monkey L \\ 
- RT & 1000 & 2500 & ???\\ 
- CST & 2000 & ??? & ???\\ 
- \hline
-\end{tabular}
-\end{center}
-\caption{Number of compasses for Reaching and Critical stability task (RT \& CST) depending on human or monkey subject}
-\label{table:lines}
-\end{table}
-
-
-
 \section{Results}
+\subsection{Dots Spread vs Magnetic Target (Human)}
+In order to decide which kind of feedback would be better to encode the position of the arm, we looked at the psychometric curves(figures \ref{fig:MT} \& \ref{fig:SD}) of extracted parameters: success rate, reaching path length (normalized by the minimum distance to the targer), initial angle bias and the reaching time (maximized at 7s). The initial angle bias is computed from the angle obtained when the path length is above 10\% of the minimum distance to the target. The slope of the success rate is steeper for SD than for MT feedback. The mean of the initial angle bias does not present any trend difference for different coherence with MT feedback.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1\textwidth,trim={1.5cm 5cm 1.2cm 5cm},clip]{figures/MD_mean_human.pdf}
+\caption{Psychometric curves for Magnetic Target feedback. The evolution of different parameters for different coherence of visual feedback are presented: mean time to reach (top left), mean path length (top right), success rate (bottom left), mean starting angle bias (bottom right).}
+\label{fig:MT}
+\end{figure}
+\begin{figure}[htbp]
+\includegraphics[width=1\textwidth,trim={1.5cm 5cm 1.2cm 5cm},clip]{figures/SD_mean_human.pdf}
+\caption{Psychometric curves for Dots Spread feedback. The evolution of different parameters for different coherence of visual feedback are presented: mean time to reach (top left), mean path length (top right), success rate (bottom left), mean starting angle bias (bottom right).}
+\label{fig:SD}
+\end{figure}
+\subsection{Magnetic Target in Reaching Task (Monkey)}
+
+
 \section{Discussion}
 \section{Conclusion}
 %% The Appendices part is started with the command \appendix;
@@ -288,7 +326,7 @@ The Magnetic Target feedback encode the position of the hand or the cursor as a 
 %%   \citet{key}         ==>>  Author [#]
 
 %% References with bibTeX database:
-
+\newpage
 \bibliographystyle{model1-num-names}
 \bibliography{report}
 
