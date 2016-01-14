@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.28)  7 JAN 2016 11:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.10)  13 JAN 2016 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,8 +6,8 @@ entering extended mode
 (./report.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 2 languages loaded.
-(/usr/share/texmf/tex/latex/elsevier/elsarticle.cls
-Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
+(/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
 \@bls=\dimen102
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
@@ -98,7 +98,6 @@ LaTeX Info: Redefining \cite on input line 694.
 \splwrite=\write3
 \openout3 = `report.spl'.
 
-\appnamewidth=\dimen109
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -106,13 +105,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen110
-\captionmargin@=\dimen111
-\captionwidth=\dimen112
-\caption@tempdima=\dimen113
-\caption@indent=\dimen114
-\caption@parindent=\dimen115
-\caption@hangindent=\dimen116
+\captionmargin=\dimen109
+\captionmargin@=\dimen110
+\captionwidth=\dimen111
+\caption@tempdima=\dimen112
+\caption@indent=\dimen113
+\caption@parindent=\dimen114
+\caption@hangindent=\dimen115
 )
 \c@ContinuedFloat=\count95
 )
@@ -189,7 +188,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen117
+\@linkdim=\dimen116
 \Hy@linkcounter=\count98
 \Hy@pagecounter=\count99
 
@@ -215,10 +214,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen118
+\XeTeXLinkMargin=\dimen117
 \Fld@menulength=\count102
-\Field@Width=\dimen119
-\Fld@charsize=\dimen120
+\Field@Width=\dimen118
+\Fld@charsize=\dimen119
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -247,21 +246,21 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip47
 )
-(/usr/share/texmf/tex/latex/lineno/lineno.sty
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count108
 \output=\toks18
 \linenoprevgraf=\count109
-\linenumbersep=\dimen121
-\linenumberwidth=\dimen122
+\linenumbersep=\dimen120
+\linenumberwidth=\dimen121
 \c@linenumber=\count110
 \c@pagewiselinenumber=\count111
 \c@LN@truepage=\count112
 \c@internallinenumber=\count113
 \c@internallinenumbers=\count114
-\quotelinenumbersep=\dimen123
-\bframerule=\dimen124
-\bframesep=\dimen125
+\quotelinenumbersep=\dimen122
+\bframerule=\dimen123
+\bframesep=\dimen124
 \bframebox=\box30
 LaTeX Info: Redefining \\ on input line 3056.
 ) (./report.aux)
@@ -285,13 +284,13 @@ LaTeX Font Info:    ... okay on input line 75.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
-\scratchdimen=\dimen126
+\scratchdimen=\dimen125
 \scratchbox=\box31
 \nofMPsegments=\count116
 \nofMParguments=\count117
 \everyMPshowfont=\toks19
 \MPscratchCnt=\count118
-\MPscratchDim=\dimen127
+\MPscratchDim=\dimen126
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks20
@@ -345,42 +344,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/bmitypes.jpg, id=100, 800.9925pt x 563.10374pt>
+<images/bmitypes.jpg, id=108, 800.9925pt x 563.10374pt>
 File: images/bmitypes.jpg Graphic file (type jpg)
 
 <use images/bmitypes.jpg>
-Package pdftex.def Info: images/bmitypes.jpg used on input line 145.
+Package pdftex.def Info: images/bmitypes.jpg used on input line 146.
 (pdftex.def)             Requested size: 292.5pt x 205.62996pt.
 
-Overfull \hbox (21.24573pt too wide) in paragraph at lines 145--147
+Overfull \hbox (21.24573pt too wide) in paragraph at lines 146--149
  [] 
  []
 
-<images/utaharray.jpeg, id=103, 266.9975pt x 190.7125pt>
+<images/utaharray.jpeg, id=111, 266.9975pt x 190.7125pt>
 File: images/utaharray.jpeg Graphic file (type jpg)
 
 <use images/utaharray.jpeg>
-Package pdftex.def Info: images/utaharray.jpeg used on input line 154.
+Package pdftex.def Info: images/utaharray.jpeg used on input line 157.
 (pdftex.def)             Requested size: 292.5pt x 208.9492pt.
 
-Overfull \hbox (21.24573pt too wide) in paragraph at lines 154--156
+Overfull \hbox (21.24573pt too wide) in paragraph at lines 157--159
  [] 
  []
 
-<images/monkeybrain.png, id=112, 436.63126pt x 278.03876pt>
+<images/monkeybrain.png, id=120, 436.63126pt x 278.03876pt>
 File: images/monkeybrain.png Graphic file (type png)
 
 <use images/monkeybrain.png>
-Package pdftex.def Info: images/monkeybrain.png used on input line 162.
+Package pdftex.def Info: images/monkeybrain.png used on input line 165.
 (pdftex.def)             Requested size: 292.5pt x 186.25954pt.
 
-Overfull \hbox (21.24573pt too wide) in paragraph at lines 162--164
+Overfull \hbox (21.24573pt too wide) in paragraph at lines 165--167
  [] 
  []
 
 [2] [3 <./images/bmitypes.jpg> <./images/utaharray.jpeg>] [4 <./images/monkeybr
 ain.png (PNG copy)>]
-Overfull \hbox (2.83342pt too wide) in paragraph at lines 177--178
+Overfull \hbox (2.83342pt too wide) in paragraph at lines 180--181
 []\OT1/cmr/m/n/12 Huge im-prove-ments have been made in re-cent decades us-ing 
 brain-machine
  []
@@ -389,65 +388,102 @@ brain-machine
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [6] <figures/RT_trajectory.pdf, id=165, 614.295pt x 794.97pt>
+ [6] <figures/RT_trajectory.pdf, id=172, 614.295pt x 794.97pt>
 File: figures/RT_trajectory.pdf Graphic file (type pdf)
 
 <use figures/RT_trajectory.pdf>
-Package pdftex.def Info: figures/RT_trajectory.pdf used on input line 198.
+Package pdftex.def Info: figures/RT_trajectory.pdf used on input line 201.
 (pdftex.def)             Requested size: 386.10214pt x 339.23782pt.
- [7 <./figures/RT_trajectory.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
+ [7] [8 <./figures/RT_trajectory.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
 
  []
 
-[8] [9] [10] <images/MTcoherence100.pdf, id=211, 557.08125pt x 425.33907pt>
+[9] [10] [11] <images/MTcoherence100.pdf, id=224, 557.08125pt x 425.33907pt>
 File: images/MTcoherence100.pdf Graphic file (type pdf)
 
 <use images/MTcoherence100.pdf>
-Package pdftex.def Info: images/MTcoherence100.pdf used on input line 287.
+Package pdftex.def Info: images/MTcoherence100.pdf used on input line 295.
 (pdftex.def)             Requested size: 191.10214pt x 168.55495pt.
 
-<images/MTcoherence50.pdf, id=213, 547.2947pt x 368.87813pt>
+<images/MTcoherence50.pdf, id=226, 547.2947pt x 368.87813pt>
 File: images/MTcoherence50.pdf Graphic file (type pdf)
 
 <use images/MTcoherence50.pdf>
-Package pdftex.def Info: images/MTcoherence50.pdf used on input line 288.
+Package pdftex.def Info: images/MTcoherence50.pdf used on input line 296.
 (pdftex.def)             Requested size: 191.10214pt x 164.80814pt.
 
-<figures/MD_mean_human.pdf, id=217, 614.295pt x 794.97pt>
+<figures/MD_mean_human.pdf, id=230, 614.295pt x 794.97pt>
 File: figures/MD_mean_human.pdf Graphic file (type pdf)
 
 <use figures/MD_mean_human.pdf>
-Package pdftex.def Info: figures/MD_mean_human.pdf used on input line 299.
+Package pdftex.def Info: figures/MD_mean_human.pdf used on input line 307.
 (pdftex.def)             Requested size: 390.0pt x 370.38454pt.
 
-<figures/SD_mean_human.pdf, id=219, 614.295pt x 794.97pt>
+<figures/SD_mean_human.pdf, id=232, 614.295pt x 794.97pt>
 File: figures/SD_mean_human.pdf Graphic file (type pdf)
 
 <use figures/SD_mean_human.pdf>
-Package pdftex.def Info: figures/SD_mean_human.pdf used on input line 304.
+Package pdftex.def Info: figures/SD_mean_human.pdf used on input line 312.
 (pdftex.def)             Requested size: 390.0pt x 370.38454pt.
- [11] [12 <./images/MTcoherence100.pdf> <./images/MTcoherence50.pdf>] [13 <./fi
-gures/MD_mean_human.pdf>] [14 <./figures/SD_mean_human.pdf>] (./report.bbl [15]
- [16])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
+ [12 <./images/MTcoherence100.pdf> <./images/MTcoherence50.pdf>]
+<figures/MD_psychometric_curve_indy.pdf, id=258, 614.295pt x 794.97pt>
+File: figures/MD_psychometric_curve_indy.pdf Graphic file (type pdf)
+
+<use figures/MD_psychometric_curve_indy.pdf>
+Package pdftex.def Info: figures/MD_psychometric_curve_indy.pdf used on input l
+ine 322.
+(pdftex.def)             Requested size: 390.0pt x 478.77467pt.
+
+
+LaTeX Warning: Float too large for page by 0.27467pt on input line 325.
+
+<figures/scatter_bits_sec_lambda.pdf, id=262, 614.295pt x 794.97pt>
+File: figures/scatter_bits_sec_lambda.pdf Graphic file (type pdf)
+
+<use figures/scatter_bits_sec_lambda.pdf>
+Package pdftex.def Info: figures/scatter_bits_sec_lambda.pdf used on input line
+ 330.
+(pdftex.def)             Requested size: 390.0pt x 233.75154pt.
+
+<figures/scatter_bits_sec_lambda_nr.pdf, id=264, 614.295pt x 794.97pt>
+File: figures/scatter_bits_sec_lambda_nr.pdf Graphic file (type pdf)
+
+<use figures/scatter_bits_sec_lambda_nr.pdf>
+Package pdftex.def Info: figures/scatter_bits_sec_lambda_nr.pdf used on input l
+ine 335.
+(pdftex.def)             Requested size: 390.0pt x 233.75154pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
+
+ []
+
+[13] [14 <./figures/MD_mean_human.pdf>] [15 <./figures/SD_mean_human.pdf>]
+[16 <./figures/MD_psychometric_curve_indy.pdf>] [17 <./figures/scatter_bits_sec
+_lambda.pdf> <./figures/scatter_bits_sec_lambda_nr.pdf>] [18] (./report.bbl
+[19] [20])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 388.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 388.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 388.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 388.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 6267ED91A928ABD6627C9A2441E622E8;1388.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
+(rerunfilecheck)             Checksum: AB5ABF0A99508B8508420073F12BDD45;1526.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 388.
  ) 
 Here is how much of TeX's memory you used:
- 7404 strings out of 495028
- 110841 string characters out of 6181496
- 195735 words of memory out of 5000000
- 10459 multiletter control sequences out of 15000+600000
+ 7429 strings out of 495028
+ 111636 string characters out of 6181497
+ 196157 words of memory out of 5000000
+ 10473 multiletter control sequences out of 15000+600000
  11182 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,8n,38p,1456b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1459b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -460,10 +496,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (17 pages, 554467 bytes).
+Output written on report.pdf (21 pages, 626394 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
